@@ -14,10 +14,10 @@ class QuestionTableViewController: UITableViewController {
     var stream = NSArray()
     var currentFocused = NSInteger()
     var page = NSInteger()
-    let offset = 1
+    let offset = 28
     var isLoading = false
     let order = "date"
-    var limit = 15
+    var limit = 30
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,7 +55,7 @@ class QuestionTableViewController: UITableViewController {
         }
         // Fetches the appropriate question for the data source layoNSDictionaryut.
         let question = stream[indexPath.row] as! NSDictionary
-        
+        cell.tagArray = question["tags"] as! NSArray
         cell.questionTextView.text = question["text"] as! String
 //        cell.questionTextView.text = question["text"] as! String
 
@@ -115,9 +115,9 @@ class QuestionTableViewController: UITableViewController {
             "offset": offset,
             "order_by": order
         ]
-        Alamofire.request("http://api.iex.ist/min/question/", parameters: parameters).responseJSON { response in
+        Alamofire.request("http://api.iex.ist/full/question/", parameters: parameters).responseJSON { response in
             print("Success: \(response.result.isSuccess)")
-            print("Response String: \(response.result.value)")
+//            print("Response String: \(response.result.value)")
             
             if let result = response.result.value {
                 var whole: NSDictionary = result as! NSDictionary
@@ -131,4 +131,7 @@ class QuestionTableViewController: UITableViewController {
             }
         }
     }
+    //MARK: Extensions
+    
+    
 }

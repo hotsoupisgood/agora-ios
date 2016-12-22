@@ -11,6 +11,7 @@
 		041FE1F81E0A2AE600CC7DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FE1F61E0A2AE600CC7DFB /* Main.storyboard */; };
 		041FE1FA1E0A2AE700CC7DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041FE1F91E0A2AE700CC7DFB /* Assets.xcassets */; };
 		041FE1FD1E0A2AE700CC7DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FE1FB1E0A2AE700CC7DFB /* LaunchScreen.storyboard */; };
+		04230CE71E0C701800826DF6 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04230CE61E0C701800826DF6 /* TagCollectionViewCell.swift */; };
 		04DF89201E0B4CE20013C2A6 /* QuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF891F1E0B4CE20013C2A6 /* QuestionTableViewController.swift */; };
 		04DF89241E0B71D90013C2A6 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF89231E0B71D90013C2A6 /* QuestionTableViewCell.swift */; };
 		ADEFB07487E76C7A15D2645F /* Pods_agora_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7D148EF9B215588F578A9 /* Pods_agora_ios.framework */; };
@@ -23,6 +24,7 @@
 		041FE1F91E0A2AE700CC7DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041FE1FC1E0A2AE700CC7DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041FE1FE1E0A2AE700CC7DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04230CE61E0C701800826DF6 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
 		04DF891F1E0B4CE20013C2A6 /* QuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewController.swift; sourceTree = "<group>"; };
 		04DF89231E0B71D90013C2A6 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		B16385926A1A301448AFE4DF /* Pods-agora-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-agora-ios/Pods-agora-ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				041FE1F01E0A2AE600CC7DFB /* AppDelegate.swift */,
 				04DF891F1E0B4CE20013C2A6 /* QuestionTableViewController.swift */,
 				04DF89231E0B71D90013C2A6 /* QuestionTableViewCell.swift */,
+				04230CE61E0C701800826DF6 /* TagCollectionViewCell.swift */,
 				041FE1F61E0A2AE600CC7DFB /* Main.storyboard */,
 				041FE1F91E0A2AE700CC7DFB /* Assets.xcassets */,
 				041FE1FB1E0A2AE700CC7DFB /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DF89241E0B71D90013C2A6 /* QuestionTableViewCell.swift in Sources */,
+				04230CE71E0C701800826DF6 /* TagCollectionViewCell.swift in Sources */,
 				04DF89201E0B4CE20013C2A6 /* QuestionTableViewController.swift in Sources */,
 				041FE1F11E0A2AE600CC7DFB /* AppDelegate.swift in Sources */,
 			);
