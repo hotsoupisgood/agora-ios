@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		041FE1F11E0A2AE600CC7DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FE1F01E0A2AE600CC7DFB /* AppDelegate.swift */; };
-		041FE1F31E0A2AE600CC7DFB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FE1F21E0A2AE600CC7DFB /* FirstViewController.swift */; };
-		041FE1F51E0A2AE600CC7DFB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FE1F41E0A2AE600CC7DFB /* SecondViewController.swift */; };
 		041FE1F81E0A2AE600CC7DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FE1F61E0A2AE600CC7DFB /* Main.storyboard */; };
 		041FE1FA1E0A2AE700CC7DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041FE1F91E0A2AE700CC7DFB /* Assets.xcassets */; };
 		041FE1FD1E0A2AE700CC7DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041FE1FB1E0A2AE700CC7DFB /* LaunchScreen.storyboard */; };
+		04DF89201E0B4CE20013C2A6 /* QuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF891F1E0B4CE20013C2A6 /* QuestionTableViewController.swift */; };
+		04DF89241E0B71D90013C2A6 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF89231E0B71D90013C2A6 /* QuestionTableViewCell.swift */; };
+		ADEFB07487E76C7A15D2645F /* Pods_agora_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7D148EF9B215588F578A9 /* Pods_agora_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041FE1ED1E0A2AE600CC7DFB /* agora-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "agora-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041FE1F01E0A2AE600CC7DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041FE1F21E0A2AE600CC7DFB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		041FE1F41E0A2AE600CC7DFB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		041FE1F71E0A2AE600CC7DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041FE1F91E0A2AE700CC7DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041FE1FC1E0A2AE700CC7DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041FE1FE1E0A2AE700CC7DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DF891F1E0B4CE20013C2A6 /* QuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewController.swift; sourceTree = "<group>"; };
+		04DF89231E0B71D90013C2A6 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		B16385926A1A301448AFE4DF /* Pods-agora-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-agora-ios/Pods-agora-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E94B4572F538728D07073430 /* Pods-agora-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-agora-ios/Pods-agora-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		EAC7D148EF9B215588F578A9 /* Pods_agora_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agora_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEFB07487E76C7A15D2645F /* Pods_agora_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				041FE1EF1E0A2AE600CC7DFB /* agora-ios */,
 				041FE1EE1E0A2AE600CC7DFB /* Products */,
+				4924F2B63AA82C196D5F7E4A /* Pods */,
+				26780043513F6DC6CEBAC796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				041FE1F01E0A2AE600CC7DFB /* AppDelegate.swift */,
-				041FE1F21E0A2AE600CC7DFB /* FirstViewController.swift */,
-				041FE1F41E0A2AE600CC7DFB /* SecondViewController.swift */,
+				04DF891F1E0B4CE20013C2A6 /* QuestionTableViewController.swift */,
+				04DF89231E0B71D90013C2A6 /* QuestionTableViewCell.swift */,
 				041FE1F61E0A2AE600CC7DFB /* Main.storyboard */,
 				041FE1F91E0A2AE700CC7DFB /* Assets.xcassets */,
 				041FE1FB1E0A2AE700CC7DFB /* LaunchScreen.storyboard */,
 				041FE1FE1E0A2AE700CC7DFB /* Info.plist */,
 			);
 			path = "agora-ios";
+			sourceTree = "<group>";
+		};
+		26780043513F6DC6CEBAC796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC7D148EF9B215588F578A9 /* Pods_agora_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4924F2B63AA82C196D5F7E4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E94B4572F538728D07073430 /* Pods-agora-ios.debug.xcconfig */,
+				B16385926A1A301448AFE4DF /* Pods-agora-ios.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041FE2011E0A2AE700CC7DFB /* Build configuration list for PBXNativeTarget "agora-ios" */;
 			buildPhases = (
+				F061BEEE997BCAB214D520BE /* [CP] Check Pods Manifest.lock */,
 				041FE1E91E0A2AE600CC7DFB /* Sources */,
 				041FE1EA1E0A2AE600CC7DFB /* Frameworks */,
 				041FE1EB1E0A2AE600CC7DFB /* Resources */,
+				62BD9F1649AB37AFB1312892 /* [CP] Embed Pods Frameworks */,
+				534D7BCC78A294F3772DC4CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +161,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		534D7BCC78A294F3772DC4CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-agora-ios/Pods-agora-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62BD9F1649AB37AFB1312892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-agora-ios/Pods-agora-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F061BEEE997BCAB214D520BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041FE1E91E0A2AE600CC7DFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041FE1F51E0A2AE600CC7DFB /* SecondViewController.swift in Sources */,
+				04DF89241E0B71D90013C2A6 /* QuestionTableViewCell.swift in Sources */,
+				04DF89201E0B4CE20013C2A6 /* QuestionTableViewController.swift in Sources */,
 				041FE1F11E0A2AE600CC7DFB /* AppDelegate.swift in Sources */,
-				041FE1F31E0A2AE600CC7DFB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +337,9 @@
 		};
 		041FE2021E0A2AE700CC7DFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94B4572F538728D07073430 /* Pods-agora-ios.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "agora-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,7 +351,9 @@
 		};
 		041FE2031E0A2AE700CC7DFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16385926A1A301448AFE4DF /* Pods-agora-ios.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "agora-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -303,6 +382,7 @@
 				041FE2031E0A2AE700CC7DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

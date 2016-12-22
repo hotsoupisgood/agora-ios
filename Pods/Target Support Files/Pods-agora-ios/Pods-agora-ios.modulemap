@@ -1,0 +1,6 @@
+framework module Pods_agora_ios {
+  umbrella header "Pods-agora-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
