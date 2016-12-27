@@ -57,7 +57,6 @@ class QuestionTableViewController: UITableViewController {
         let question = stream[indexPath.row] as! NSDictionary
         cell.tagArray = question["tags"] as! NSArray
         cell.questionTextView.text = question["text"] as! String
-//        cell.questionTextView.text = question["text"] as! String
 
         return cell
     }
